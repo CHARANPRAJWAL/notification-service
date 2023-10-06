@@ -4,6 +4,6 @@ const app = express();
 app.get("/notify", (req, res) => {
   res.send("notify");
 });
-app.listen("4002", () => {
+app.listen("7000", () => {
   console.log("SERVER STARTED ");
 });

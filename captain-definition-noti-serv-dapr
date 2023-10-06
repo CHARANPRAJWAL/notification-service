@@ -5,4 +5,4 @@
     "WORKDIR /usr/src/app",
     "CMD [\"./daprd\", \"-app-id\", \"srv-captain--noti-service\", \"-app-port\", \"7000\", \"--dapr-http-port\", \"7500\", \"-placement-host-address\", \"srv-captain--noti-service-placement:50000\"]"
   ]
-
+}
